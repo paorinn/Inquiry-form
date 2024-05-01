@@ -1,0 +1,58 @@
+.header {
+    width: 1512px;
+    height: 100px;
+    border: 1px 0px 0px 0px;
+    border-bottom: 1px solid #E0DFDE
+}
+
+.header__logo {
+    font-family: Inika;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.12px;
+    text-align: center;
+    color: #8B7969;
+}
+
+.contact-form__content {
+    height: 606px;
+    position: relative;
+    left: 273px;
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 972px;
+
+}
+
+.contact-form__heading h2 {
+    font-family: Inika;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45.61px;
+    text-align: center;
+    color: #8B7969;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    flex-direction: space-between;
+    margin-bottom: 15px;
+
+}
+
+.form__label--item {
+    color: #8B7969;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: #FF0000;
+}
